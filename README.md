@@ -13,6 +13,7 @@ Only support Python3.
 - starlette
 - falcon
 - bottle
+- pyramid
 
 ## Usage
 
