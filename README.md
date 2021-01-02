@@ -1,5 +1,5 @@
 # swagger-ui-py
-Swagger UI for Python web framework, such Tornado, Flask, Quart, aiohttp, Sanic and Falcon.
+Swagger UI for Python web framework, such Tornado, Flask, Quart, aiohttp, Sanic, Falcon and Pyramid.
 
 Only support Python3.
 
@@ -41,6 +41,9 @@ Only support Python3.
 
   ```python
   api_doc(app, config_path='./config/test.yaml', editor=True)
+  
+  # Pyramid
+  api_doc(config, config_path='./config/test.yaml', editor=True)
   ```
 
   And keep the old way
